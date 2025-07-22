@@ -74,14 +74,14 @@
 
         base {
             bindings = <
-  &kp Q  &kp W      &kp E         &kp R          &kp T                          &kp Y  &kp U    &kp I         &kp O      &kp P
-  &kp A  &hml2 1 S  &hml LSHFT D  &hml2 2 F      &kp G                          &kp H  &kp J    &hmr RSHFT K  &hmr2 1 L  &kp SINGLE_QUOTE
-  &kp Z  &kp X      &kp C         &kp V          &kp B                          &kp N  &kp M    &kp COMMA     &kp DOT    &kp SLASH
-                                  &kp BACKSPACE  &none  &kp SPACE    &kp ENTER  &to 3  &kp TAB
+  &kp Q        &kp W      &kp E         &kp R          &kp T                          &kp Y  &kp U    &kp I         &kp O      &kp P
+  &hml LGUI A  &hml2 1 S  &hml LSHFT D  &hml2 2 F      &kp G                          &kp H  &kp J    &hmr RSHFT K  &hmr2 1 L  &kp SINGLE_QUOTE
+  &kp Z        &kp X      &kp C         &kp V          &kp B                          &kp N  &kp M    &kp COMMA     &kp DOT    &kp SLASH
+                                        &kp BACKSPACE  &none  &kp SPACE    &kp ENTER  &to 3  &kp TAB
             >;
         };
 
-        layer_4 {
+        punctuation {
             bindings = <
   &kp HASH   &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS   &none                       &none        &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE
   &kp TILDE  &kp EXCL       &kp COLON         &kp EQUAL   &kp PLUS                    &kp PERCENT  &kp STAR        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER
@@ -101,10 +101,10 @@
 
         nav {
             bindings = <
-  &kp ESCAPE    &none             &none           &kp DELETE    &kp CAPS                   &none          &none     &none     &none   &none
-  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp TAB                    &kp BACKSPACE  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
-  &none         &none             &kp INS         &kp ENTER     &kp SPACE                  &none          &none     &none     &none   &none
-                                                  &mo 5         &to 0      &mo 4    &mo 6  &none          &trans
+  &kp ESCAPE    &none             &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp DELETE    &kp CAPS                   &none          &none     &none     &none   &none
+  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT                        &kp LEFT_ALT  &kp TAB                    &kp BACKSPACE  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+  &none         &none             &kp INS                               &none         &kp SPACE                  &none          &none     &none     &none   &none
+                                                                        &mo 5         &to 0      &mo 4    &mo 6  &none          &trans
             >;
         };
 
