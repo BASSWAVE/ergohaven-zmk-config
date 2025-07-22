@@ -77,7 +77,7 @@
   &kp Q        &kp W      &kp E         &kp R          &kp T                          &kp Y  &kp U    &kp I         &kp O      &kp P
   &hml LGUI A  &hml2 1 S  &hml LSHFT D  &hml2 2 F      &kp G                          &kp H  &kp J    &hmr RSHFT K  &hmr2 1 L  &kp SINGLE_QUOTE
   &kp Z        &kp X      &kp C         &kp V          &kp B                          &kp N  &kp M    &kp COMMA     &kp DOT    &kp SLASH
-                                        &kp BACKSPACE  &none  &kp SPACE    &kp ENTER  &to 3  &kp TAB
+                                        &kp BACKSPACE  &to 6  &kp SPACE    &kp ENTER  &none  &kp TAB
             >;
         };
 
@@ -96,15 +96,6 @@
   &none  &none  &none  &none   &none                    &none  &kp N4  &kp N5  &kp N6  &kp N0
   &none  &none  &none  &none   &none                    &none  &kp N1  &kp N2  &kp N3  &none
                        &trans  &none  &trans    &trans  &none  &trans
-            >;
-        };
-
-        nav {
-            bindings = <
-  &kp ESCAPE    &none             &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp DELETE    &kp CAPS                   &none          &none     &none     &none   &none
-  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT                        &kp LEFT_ALT  &kp TAB                    &kp BACKSPACE  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
-  &none         &none             &kp INS                               &none         &kp SPACE                  &none          &none     &none     &none   &none
-                                                                        &mo 5         &to 0      &mo 4    &mo 6  &none          &trans
             >;
         };
 
@@ -132,6 +123,15 @@
   &kp LGUI      &hml LALT F5  &hml LSHFT F6  &hml LCTRL F7  &kp F8                     &out OUT_BLE  &hmr RCTRL C_VOL_DN                   &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RGUI
   &kp CAPSLOCK  &kp F9        &kp F10        &kp F11        &kp F12                    &out OUT_USB  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp C_PP           &kp C_NEXT          &studio_unlock
                                              &trans         &trans   &trans    &trans  &trans        &trans
+            >;
+        };
+
+        nav {
+            bindings = <
+  &kp ESCAPE    &none             &none           &kp DELETE    &kp CAPS                         &none          &none     &none     &none   &none
+  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp TAB                          &kp BACKSPACE  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT
+  &none         &none             &kp INS         &none         &kp SPACE                        &none          &none     &none     &none   &none
+                                                  &mo 4         &none      &mo 3    &lt 5 ENTER  &to 0          &trans
             >;
         };
     };
