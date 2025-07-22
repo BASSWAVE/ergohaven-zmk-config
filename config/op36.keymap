@@ -110,10 +110,10 @@
 
         left_gui {
             bindings = <
-  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                  &none  &none  &none  &none  &none
-  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)                  &none  &none  &none  &none  &none
-  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                  &none  &none  &none  &none  &none
-                                   &none      &none      &none    &none  &none  &none
+  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                  &kp LG(Y)  &kp LG(U)  &kp LG(I)      &kp LG(O)    &kp LG(P)
+  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)                  &kp LG(H)  &kp LG(J)  &kp LG(K)      &kp LG(L)    &kp LG(SQT)
+  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                  &kp LG(N)  &kp LG(M)  &kp LG(COMMA)  &kp LG(DOT)  &kp LG(FSLH)
+                                   &none      &none      &none    &none  &none      &none
             >;
         };
 
